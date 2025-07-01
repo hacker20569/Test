@@ -1,0 +1,22 @@
+{
+  "name": "httpv4-ddos-tool",
+  "version": "1.0.0",
+  "description": "HTTPV4 DDoS Tool with beautiful interface",
+  "main": "v4.js",
+  "scripts": {
+    "start": "node v4.js",
+    "test": "node v4.js https://example.com 60 100 10 proxy.txt"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "gradient-string": "^2.0.2"
+  },
+  "keywords": [
+    "ddos",
+    "http",
+    "tool",
+    "security"
+  ],
+  "author": "Phạm Xuân Tiến",
+  "license": "MIT"
+} 
