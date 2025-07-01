@@ -1,22 +1,23 @@
 {
-  "name": "httpv4-ddos-tool",
+  "name": "flood-ddos-tool",
   "version": "1.0.0",
-  "description": "HTTPV4 DDoS Tool with beautiful interface",
-  "main": "v4.js",
+  "description": "Flood DDoS Tool with BypassV5",
+  "main": "flood.js",
   "scripts": {
-    "start": "node v4.js",
-    "test": "node v4.js https://example.com 60 100 10 proxy.txt"
+    "start": "node flood.js",
+    "test": "node flood.js https://example.com 60 100 10 live.txt"
   },
   "dependencies": {
     "colors": "^1.4.0",
-    "gradient-string": "^2.0.2"
+    "gradient-string": "^2.0.2",
+    "axios": "^1.6.0"
   },
   "keywords": [
     "ddos",
-    "http",
-    "tool",
-    "security"
+    "flood",
+    "bypass",
+    "tool"
   ],
-  "author": "Phạm Xuân Tiến",
+  "author": "Ngzz Dat",
   "license": "MIT"
 } 
